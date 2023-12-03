@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-#emreYbs
+#https://github.com/emreYbs
 # -*- coding: utf-8 -*-
-#Script works, but I'll refactor the code and make it a little faster. This one is the fisrt version that I have begun working on it. Written and tested on Windows PC. Will try on Linux, Mac OS and FreeBSD as well
+#Script works well, but I'll refactor the code and make it a little faster. This one is the fisrt version that I have begun working on it. Written and tested on Windows PC. Will try on Linux, Mac OS and FreeBSD as well
 #Plans for future version: 1-threading 2-Refactor 3-Correct any possible problem after testing for different cases. 4-Add more logic. Now the script still works after it has already moved all .pdf's to a folder. So I need to optimize it for Version 2.
 
 
@@ -35,9 +35,9 @@ print(f"You have chosen {directory} as the directory to be organized.\n")
 print("\033[31mIt can take a while depending on the size of the folder. So please wait...\033[0m")
 print("..........")
 sleep(0.5)
-print("Organizing files...")
+print("Organizing files may take some time...")
 sleep(0.2)
-print("This may take some time...")
+
       
 def clean_folder(file_types, directory):
     """
@@ -49,8 +49,6 @@ def clean_folder(file_types, directory):
     filename_regex = re.compile(r'(.+)\.(.+)')
 
     # Loop through files in the given directory
-
-
     for dirpath, _, filenames in os.walk(directory):
         for filename in filenames:
             print("Organizing " + filename + "...")
@@ -93,12 +91,13 @@ def get_file_types():
     print("..........")
     sleep(0.5)
     file_types = []
-    print("Enter the file types below: \n")
-    print("Example: \n")
-    print("pdf\n")
-    print("txt\n")
-    print("docx\n")
+    print("\nEnter the file types like below: \n") 
+    print("\tExample: \n")
+    print("\t\tpdf\n")
+    print("\t\ttxt\n")
+    print("\t\tdocx\n")
     print("..........")
+    sleep(0.5)
     for _ in range(size):
         file_type = input()
         file_types.append(file_type)

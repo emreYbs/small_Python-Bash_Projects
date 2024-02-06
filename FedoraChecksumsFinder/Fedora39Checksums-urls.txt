@@ -1,0 +1,8 @@
+URL: https://dl.fedoraproject.org/pub/alt/releases/39/Cloud/
+URL: https://dl.fedoraproject.org/pub/alt/releases/39/Container/
+URL: https://dl.fedoraproject.org/pub/alt/releases/39/Everything/
+URL: https://dl.fedoraproject.org/pub/alt/releases/39/Labs/
+URL: https://dl.fedoraproject.org/pub/alt/releases/39/Server/
+URL: https://dl.fedoraproject.org/pub/alt/releases/39/Silverblue/
+URL: https://dl.fedoraproject.org/pub/alt/releases/39/Spins/
+URL: https://dl.fedoraproject.org/pub/alt/releases/39/Workstation/

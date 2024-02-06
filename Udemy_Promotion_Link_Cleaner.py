@@ -4,6 +4,8 @@
 # -*- coding: utf-8 -*-
 # Udemy Promotion Link Cleaner
 # This script will clean the very long Udemy promotion link and remove the tracking parameters from the final URL. Also it will give you the Coupon Code the long promotion URL
+# By the way, this script can also clean the tracking in URLS apart from UDEMY promotion emails. 
+# I wrote it to use generally for Udemy promotion emails but bear it in mind that it can also work for other links.
 
 import requests
 from urllib.parse import urlparse, urlencode, urlunparse, parse_qs

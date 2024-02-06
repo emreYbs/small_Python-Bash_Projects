@@ -1,5 +1,6 @@
 ## small_Python_Projects
-### Project 1: 
+
+## Project 1: 
 ### _Udemy Promotion Link Cleaner_
 *This script will clean the Udemy promotion link and remove the tracking parameters from the final URL.*
 - Also it will give you the Coupon Code the long promotion URL
@@ -17,11 +18,13 @@ BTW, in these kinds of promotion emails, there is a notion of _UTM_ which means:
 
  *For further information*, you can check this lovely explanation here: https://www.semrush.com/blog/url-parameters/
 
-### Project 2:
+## Project 2:
 ### _BBC News RSS Feed Reader_
 _(I re-wrote my previous script and make the script a little better and more useful.)_
 ![image](https://github.com/emreYbs/small_Python_Projects/assets/59505246/9a367c55-d338-4096-bd24-adb1172c1093)
 
-### Project 3: 
+## Project 3: 
 ### _File Organiser_
 
+## Project 4:
+### _Fedora39-CheksumsFinder_

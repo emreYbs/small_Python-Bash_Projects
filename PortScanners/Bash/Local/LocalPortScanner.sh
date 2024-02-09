@@ -12,7 +12,6 @@ show_banner() {
     echo "This script scans a range of IP addresses"
     echo "for open ports on a specified port number."
     echo "----------------------------------------"
-    echo
 }
 
 # Call the function to show the banner
@@ -74,5 +73,5 @@ else
 fi
 
 echo "The open ports have been saved to openPorts.txt"
-echo "Thank you for using the Simple Port Scanner"
+echo "Thank you for using the Local Port Scanner"
 exit 0
